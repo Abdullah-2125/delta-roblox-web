@@ -15,9 +15,12 @@ export default function Home() {
         <p className="mt-4 text-xl text-gray-400 max-w-2xl mx-auto mb-10">
           The most powerful, cross-platform third-party script injector for Roblox. Run custom Lua scripts safely with our advanced execution engine.
         </p>
-        <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
+        <div className="flex flex-col justify-center items-center gap-4">
           <Link href="#download" className="bg-primary hover:bg-primaryHover text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 shadow-[0_0_20px_rgba(16,185,129,0.4)] hover:shadow-[0_0_30px_rgba(16,185,129,0.6)] flex items-center gap-2">
             <Download size={24} /> Download For Android v.2.720
+          </Link>
+          <Link href="https://thedeltaroblox.com/wp-content/uploads/2026/06/Delta-Executor-iOS-v2.719.ipa" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors underline underline-offset-4 flex items-center gap-2 mt-2">
+            <Download size={16} /> Download iOS v2.719
           </Link>
         </div>
         
